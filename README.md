@@ -8,7 +8,7 @@
  ## How To Use
  
  Create object pool on ObjectPooler with an object prefab and pool size value
- ![Screenshot (32)](https://user-images.githubusercontent.com/32217921/68706393-d1bdbb00-05a0-11ea-851a-28fccdd1f8be.png)
+ ![Screenshot (32)](https://user-images.githubusercontent.com/32217921/68706393-d1bdbb00-05a0-11ea-851a-28fccdd1f8be.png | height=100)
 
 Reuse from the pool with the same GameObject reference that was used for creating the pool.
 Resue method has two overloads. Last transform parameter is for parenting the object. (Like Unity's Instantiate method)
