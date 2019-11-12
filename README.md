@@ -27,7 +27,7 @@ Resue method has two overloads. Last transform parameter is for parenting the ob
 
 If you include IReusable on the reused object class, object pooler will call Reuse method everytime the object is reused.
 ```csharp
-public class Capsule : MonoBehaviour, IReusable
+    public class Capsule : MonoBehaviour, IReusable
 ```
 
 The following is the sample Reuse method
